@@ -2,7 +2,6 @@ INCLUDE 'emu8086.inc' ;memanggil file headeer emu 8086 ke dalam program
 
 .org 100h
 
-
 JMP MULAI:
            msg_simbol1 DB 0Dh,0Ah,'+------------------------------------+ $'
            msg_nama    DB 0Dh,0Ah,'|   NAMA : NAUFAL RAFID RAHMAWAN      |$' 
